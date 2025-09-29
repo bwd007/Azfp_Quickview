@@ -1,0 +1,29 @@
+v1.0 20220901
+- if MikTeX (pdflatex) is not found then show install button
+- redesign of gui pages
+- auto load noise floor values using instrument s/n from nas_man drive
+- option to plot all data instead of just 5 segments. Shows # pages that will be plotted to PDF.
+- can plot Sv or raw counts
+- add settings to plot portrait/landscape and show 2 sub plots with Battey, tilt, temp, depth options. Also can show/hide header and footer.
+- added Help and Manual chm help file
+- save program settings on exit and load on start
+- better \DATA loading if selecting folder other than expected (eg. \DATA\20220101)
+- alert if old files in with data (eg. setup Aug, deploy Nov)
+- fixed loading xml and dpl if in non-used directory (eg. setup directory with no .01A raw files)
+- tested on: FlashDump \\Nas1\nas_man\Manufacturing Tests\AZFP5
+- tested on: Q:\RD-AZFP\Data from Users and Field tests
+
+v0.9 20210816 
+- works with depth data, if available ie. glider using azfp toolbox v1.8
+
+v0.7 20200515 
+- changed size to work on field laptop 1366x768
+
+v0.6 20191202 
+- bug fixes for 1 month data and < 4 chan data, added plotoffset input (was hard coded to 7 days)
+
+v0.5 20190711 
+- added latex output
+
+v0.1 20190624
+- first release

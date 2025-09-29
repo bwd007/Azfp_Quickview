@@ -1,0 +1,3688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Info Location="ProjectData">
+        <Info Name="AZFP_Quickview"/>
+    </Info>
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+        </Category>
+        <Category Location="Deployment_Category_9a2b05cd-8b8b-4a62-918a-8fe85b86206e">
+            <Info DataType="None" Name="Toolbox - Toolbox1" ReadOnly="0" SingleValued="0"/>
+            <Label Location="Deployment_ToolboxImageFile_9a2b05cd-8b8b-4a62-918a-8fe85b86206e">
+                <Info Name="Toolbox Image File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_ToolboxAppGalleryFiles_9a2b05cd-8b8b-4a62-918a-8fe85b86206e">
+                <Info Name="App Gallery File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_GettingStartedGuideFile_9a2b05cd-8b8b-4a62-918a-8fe85b86206e">
+                <Info Name="Getting Started Guide" ReadOnly="WRITABLE"/>
+            </Label>
+        </Category>
+        <Category Location="Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916">
+            <Info DataType="None" Name="Standalone Application - StandaloneDesktopApp1" ReadOnly="0" SingleValued="0"/>
+            <Label Location="Deployment_AdditionalFiles_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Additional File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_MainFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Main Function" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_ExeIconFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Executable Icon File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_ExeSplashImageFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Executable Splash Image File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_HelpTextFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Help Text File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_AddRemoveProgramsIconFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Windows Apps &amp; Features Icon File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_InstallerAdditionalFiles_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Installer Additional Files" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_InstallerIconFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Installer Icon File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_InstallerSplashFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Installer Splash Image File" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="Deployment_InstalerLogoFile_c94007bc-ad0b-4c19-9974-da871fc25916">
+                <Info Name="Installer Logo Image File" ReadOnly="WRITABLE"/>
+            </Label>
+        </Category>
+    </Categories>
+    <Files Location="Root">
+        <File Location=".gitignore">
+            <Info/>
+        </File>
+        <File Location="AZFP-strip-2.jpg">
+            <Info>
+                <Category UUID="Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916">
+                    <Label UUID="Deployment_InstalerLogoFile_c94007bc-ad0b-4c19-9974-da871fc25916"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="AZFP_QuickView_Settings.mat">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="AzfpQuickView_UserManual.chm">
+            <Info/>
+        </File>
+        <File Location="AzfpQuickView_UserManual.pdf">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="artifact"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="README.txt">
+            <Info/>
+        </File>
+        <File Location="Versions.xlsx">
+            <Info/>
+        </File>
+        <File Location="azfpdiag_App.mlapp">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+                <Category UUID="Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916">
+                    <Label UUID="Deployment_MainFile_c94007bc-ad0b-4c19-9974-da871fc25916"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="browse-folder.png">
+            <Info/>
+        </File>
+        <File Location="cancel.png">
+            <Info/>
+        </File>
+        <File Location="fish.png">
+            <Info>
+                <Category UUID="Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916">
+                    <Label UUID="Deployment_InstallerIconFile_c94007bc-ad0b-4c19-9974-da871fc25916"/>
+                    <Label UUID="Deployment_ExeIconFile_c94007bc-ad0b-4c19-9974-da871fc25916"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="help.png">
+            <Info/>
+        </File>
+        <File Location="images">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="ASLfoot.png">
+                <Info/>
+            </File>
+            <File Location="ASLhead.png">
+                <Info/>
+            </File>
+        </File>
+        <File Location="older versions">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="Manual">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="hm">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="Annotation 2020-05-07 101117.jpg">
+                        <Info/>
+                    </File>
+                    <File Location="AzfpQuickView_UserManual.hmxp">
+                        <Info/>
+                    </File>
+                    <File Location="Maps">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="table_of_contents.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="Topics">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="Chapter-2.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Echogram-and-profile-plot-sett.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Echogram-plot-summary.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Help.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Installation.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Instrument-Settings.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Second-topic.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Select-Phase.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Stylesheet-for-Style-Test.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Sub-chapter-2_2.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Sub-chapter-2_3.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Sub-chapter-2_4.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Version-History.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="Welcome-topic.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="echogram-tab.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="sensor-plot-settings.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="sensor-summary-tab.xml">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="__history">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpCalib_UserManual.hmxp.~0F00B2C0">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~16D10057">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~3B0D67F9">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~4D1E5C60">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~54CFEEF7">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~778461EE">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~81B1C311">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~98607186">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~E2C83555">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.hmxp.~FB1987C2">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~3BCBCCD4">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~6141E077">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~64CFA3C7">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~76826C82">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~789052E0">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~7D1E1150">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~995DE823">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~9EBB1FB0">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~9EC356EE">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.hmxp.~D26ECEFA">
+                            <Info/>
+                        </File>
+                        <File Location="Chapter-2.xml.~45A7A66F">
+                            <Info/>
+                        </File>
+                        <File Location="Chapter-2.xml.~6C67E545">
+                            <Info/>
+                        </File>
+                        <File Location="Chapter-2.xml.~8498B2D6">
+                            <Info/>
+                        </File>
+                        <File Location="Chapter-2.xml.~8F7635A3">
+                            <Info/>
+                        </File>
+                        <File Location="Chapter-2.xml.~BD6B8F64">
+                            <Info/>
+                        </File>
+                        <File Location="Chapter-2.xml.~D63DF4F5">
+                            <Info/>
+                        </File>
+                        <File Location="Chapter-2.xml.~F559CD94">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-and-profile-plot-sett.xml.~221E71B9">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-and-profile-plot-sett.xml.~406D4CC0">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-and-profile-plot-sett.xml.~5C6E6F13">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-and-profile-plot-sett.xml.~F611AE08">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-plot-summary.xml.~11B19728">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-plot-summary.xml.~3F51C1D1">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-plot-summary.xml.~C6DCB434">
+                            <Info/>
+                        </File>
+                        <File Location="Echogram-plot-summary.xml.~D5A094F8">
+                            <Info/>
+                        </File>
+                        <File Location="Installation.xml.~213E9593">
+                            <Info/>
+                        </File>
+                        <File Location="Installation.xml.~3182F6E8">
+                            <Info/>
+                        </File>
+                        <File Location="Installation.xml.~8E8C24CF">
+                            <Info/>
+                        </File>
+                        <File Location="Installation.xml.~BF833740">
+                            <Info/>
+                        </File>
+                        <File Location="Installation.xml.~F32499CE">
+                            <Info/>
+                        </File>
+                        <File Location="Instrument-Settings.xml.~0438DBB9">
+                            <Info/>
+                        </File>
+                        <File Location="Instrument-Settings.xml.~09D8D8BA">
+                            <Info/>
+                        </File>
+                        <File Location="Instrument-Settings.xml.~20F70B71">
+                            <Info/>
+                        </File>
+                        <File Location="Instrument-Settings.xml.~A3159183">
+                            <Info/>
+                        </File>
+                        <File Location="Instrument-Settings.xml.~E241E282">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~147DAED3">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~39D6823E">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~57A048FC">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~8963FCE5">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~9B23187C">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~A66995A9">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~AE94A2C9">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~BDBACEE3">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~D3C2750C">
+                            <Info/>
+                        </File>
+                        <File Location="Second-topic.xml.~D975352A">
+                            <Info/>
+                        </File>
+                        <File Location="Stylesheet-for-Style-Test.xml.~BA740B04">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~264E0F4F">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~347C1A28">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~4070E3DD">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~913CEA0B">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~A4E5151F">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~A739E8DC">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~D1EBD410">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~DBEFD7C4">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~E6739BFE">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_1.xml.~EC731C72">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_2.xml.~5804A580">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_2.xml.~C56AC867">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_3.xml.~0D5AA7D7">
+                            <Info/>
+                        </File>
+                        <File Location="Sub-chapter-2_4.xml.~985F767A">
+                            <Info/>
+                        </File>
+                        <File Location="Version-History.xml.~22B9803D">
+                            <Info/>
+                        </File>
+                        <File Location="Version-History.xml.~49255EDA">
+                            <Info/>
+                        </File>
+                        <File Location="Version-History.xml.~C57B6F98">
+                            <Info/>
+                        </File>
+                        <File Location="Version-History.xml.~FE261075">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~15FA8CBC">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~524DA8E2">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~585524AB">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~58A4914C">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~5F3509AD">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~697F3EB8">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~73BC9C59">
+                            <Info/>
+                        </File>
+                        <File Location="Welcome-topic.xml.~CD048A37">
+                            <Info/>
+                        </File>
+                        <File Location="echogram-tab.xml.~032B4AF6">
+                            <Info/>
+                        </File>
+                        <File Location="echogram-tab.xml.~82343C7B">
+                            <Info/>
+                        </File>
+                        <File Location="echogram-tab.xml.~8B89CEFA">
+                            <Info/>
+                        </File>
+                        <File Location="echogram-tab.xml.~9BAFC8CF">
+                            <Info/>
+                        </File>
+                        <File Location="echogram-tab.xml.~C113537F">
+                            <Info/>
+                        </File>
+                        <File Location="helpproject.xsd.~00000000">
+                            <Info/>
+                        </File>
+                        <File Location="helpproject.xsl.~00000000">
+                            <Info/>
+                        </File>
+                        <File Location="helpproject.xsl.~5DC2F6BA">
+                            <Info/>
+                        </File>
+                        <File Location="helpproject.xsl.~CA5DAFB5">
+                            <Info/>
+                        </File>
+                        <File Location="helpproject.xsl.~E0BE0AA6">
+                            <Info/>
+                        </File>
+                        <File Location="project.hmxp.~0407E3DD">
+                            <Info/>
+                        </File>
+                        <File Location="project.hmxp.~641C040E">
+                            <Info/>
+                        </File>
+                        <File Location="project.hmxp.~CBE1BCCC">
+                            <Info/>
+                        </File>
+                        <File Location="project.hmxp.~F899FF89">
+                            <Info/>
+                        </File>
+                        <File Location="sensor-plot-settings.xml.~24EC2EA4">
+                            <Info/>
+                        </File>
+                        <File Location="sensor-plot-settings.xml.~3CA28B90">
+                            <Info/>
+                        </File>
+                        <File Location="sensor-plot-settings.xml.~53F4D0A1">
+                            <Info/>
+                        </File>
+                        <File Location="sensor-summary-tab.xml.~33ED61C9">
+                            <Info/>
+                        </File>
+                        <File Location="sensor-summary-tab.xml.~B05DEC3D">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~3C62514B">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~3F0C4A86">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~3FA6F471">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~5F573212">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~5FA3E672">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~6B0CF3BB">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~8684B136">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~99583DD0">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~EBFF3060">
+                            <Info/>
+                        </File>
+                        <File Location="table_of_contents.xml.~FEF2E04D">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="azfpcalib.mnl">
+                        <Info/>
+                    </File>
+                    <File Location="helpproject.xsd">
+                        <Info/>
+                    </File>
+                    <File Location="helpproject.xsl">
+                        <Info/>
+                    </File>
+                    <File Location="images">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="ASLfoot.png">
+                            <Info/>
+                        </File>
+                        <File Location="AZFP-strip-2.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-07 101117.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-07 105048.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-07 110111.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-07 135448.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-07 135522.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-07 144954.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 085905.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 101410.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 114141.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 114924.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 114947.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 120535.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 120553.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 122603.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-05-08 124152.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-06-11 113828.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="Annotation 2020-06-11 120553.jpg">
+                            <Info/>
+                        </File>
+                        <File Location="clip0001.png">
+                            <Info/>
+                        </File>
+                        <File Location="clip0002.png">
+                            <Info/>
+                        </File>
+                        <File Location="clip0003.png">
+                            <Info/>
+                        </File>
+                        <File Location="clip0004.png">
+                            <Info/>
+                        </File>
+                        <File Location="clip0005.png">
+                            <Info/>
+                        </File>
+                        <File Location="clip0006.png">
+                            <Info/>
+                        </File>
+                        <File Location="snip1.jpg">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="pdf_manual.mnl">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="AZFP-strip-2.jpg">
+                        <Info/>
+                    </File>
+                    <File Location="QV_1.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_10.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_11.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_12.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_13.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_14.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_15.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_16.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_18.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_19.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_2.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_20.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_21.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_22.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_23.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_3.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_4.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_5.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_6.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_7.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_8.png">
+                        <Info/>
+                    </File>
+                    <File Location="QV_9.png">
+                        <Info/>
+                    </File>
+                    <File Location="Screenshot 2022-08-08 105251.png">
+                        <Info/>
+                    </File>
+                    <File Location="Screenshot 2022-08-08 105324.png">
+                        <Info/>
+                    </File>
+                    <File Location="Screenshot 2022-08-08 105406.png">
+                        <Info/>
+                    </File>
+                    <File Location="Screenshot 2022-08-08 113206.png">
+                        <Info/>
+                    </File>
+                    <File Location="ULS6_1.png">
+                        <Info/>
+                    </File>
+                    <File Location="ULS6_2.png">
+                        <Info/>
+                    </File>
+                </File>
+            </File>
+            <File Location="PR878 code">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="PR878_55054_ParametersAZFP.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="PR878_55088_ParametersAZFP.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="PR878_55089_ParametersAZFP.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Plot878AZFP.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="extractbin_878.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="plotall878.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="plotbin_878.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="readme.txt">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="azfpdiag_App.prj">
+                <Info/>
+            </File>
+            <File Location="images">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="ASLfoot.png">
+                    <Info/>
+                </File>
+                <File Location="ASLhead.png">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 0.05">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiagInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiag.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpDiagnostic.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiag.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpDiagnostic.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="old">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="TabManager.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="azfpdiag.fig">
+                        <Info/>
+                    </File>
+                    <File Location="azfpdiag.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="azfpdiag_App.mlapp">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="azfpdiag_App_report.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="profiles.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="sensor.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="summary.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="screencapture">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ImageSelection.class">
+                        <Info/>
+                    </File>
+                    <File Location="ImageSelection.java">
+                        <Info/>
+                    </File>
+                    <File Location="screencapture.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 0.1">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiagInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiag.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpDiagnostic.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiag.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpDiagnostic.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="old">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="TabManager.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="azfpdiag.fig">
+                        <Info/>
+                    </File>
+                    <File Location="azfpdiag.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="azfpdiag_App.mlapp">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="azfpdiag_App_report.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="55074_20180118.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="55074_20180324.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="profiles.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="sensor.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="sensor.tif">
+                        <Info/>
+                    </File>
+                    <File Location="summary.pdf">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="summary.tif">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="screencapture">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ImageSelection.class">
+                        <Info/>
+                    </File>
+                    <File Location="ImageSelection.java">
+                        <Info/>
+                    </File>
+                    <File Location="screencapture.m">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 0.5">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiag.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpDiagnostic.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpDiag.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpDiagnostic.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="55054_20171002.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180102.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180404.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180704.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180927.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20181003.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170525.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170901.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20171019.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160414.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160604.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160724.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160913.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20161101.png">
+                        <Info/>
+                    </File>
+                    <File Location="profiles.png">
+                        <Info/>
+                    </File>
+                    <File Location="summary.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 0.6">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="55054_20171002.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180102.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180404.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180704.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180927.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180929.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20181003.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170525.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170901.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20171019.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180701.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180708.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180711.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180712.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180714.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180715.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180716.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180717.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180719.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180720.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180722.png">
+                        <Info/>
+                    </File>
+                    <File Location="55088_20180706.png">
+                        <Info/>
+                    </File>
+                    <File Location="55088_20180929.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160414.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160604.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160724.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160913.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20161101.png">
+                        <Info/>
+                    </File>
+                    <File Location="55178_20200121.png">
+                        <Info/>
+                    </File>
+                    <File Location="profiles.png">
+                        <Info/>
+                    </File>
+                    <File Location="summary.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 0.7">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="55054_20171002.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180102.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180404.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180704.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180927.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180929.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20181003.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170525.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170901.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20171019.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180701.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180708.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180711.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180712.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180714.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180715.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180716.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180717.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180719.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180720.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180722.png">
+                        <Info/>
+                    </File>
+                    <File Location="55088_20180706.png">
+                        <Info/>
+                    </File>
+                    <File Location="55088_20180929.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160414.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160604.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160724.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160913.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20161101.png">
+                        <Info/>
+                    </File>
+                    <File Location="55178_20200121.png">
+                        <Info/>
+                    </File>
+                    <File Location="profiles.png">
+                        <Info/>
+                    </File>
+                    <File Location="summary.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 0.8">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App_resources">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="icon.ico">
+                        <Info/>
+                    </File>
+                    <File Location="icon_16.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_24.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_32.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_48.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="55054_20171002.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180102.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180404.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180704.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180927.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20180929.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20181003.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20210317.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20210318.png">
+                        <Info/>
+                    </File>
+                    <File Location="55054_20210319.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170525.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20170901.png">
+                        <Info/>
+                    </File>
+                    <File Location="55076_20171019.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180701.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180708.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180711.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180712.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180714.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180715.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180716.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180717.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180719.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180720.png">
+                        <Info/>
+                    </File>
+                    <File Location="55084_20180722.png">
+                        <Info/>
+                    </File>
+                    <File Location="55088_20180706.png">
+                        <Info/>
+                    </File>
+                    <File Location="55088_20180929.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160414.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160604.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160724.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20160913.png">
+                        <Info/>
+                    </File>
+                    <File Location="55103_20161101.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180117.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180122.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180123.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180330.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180331.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180404.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180405.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180409.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180410.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180414.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180415.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180419.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180420.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180424.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180425.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180429.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180430.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180504.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180505.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180509.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180510.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180514.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180515.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180519.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180520.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180524.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180525.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180529.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180530.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180603.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180604.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180608.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180609.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180613.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180614.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180618.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180619.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180623.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180624.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180628.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180629.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180703.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180704.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180708.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180709.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180713.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180714.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180718.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180719.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180723.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180724.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180728.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180729.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180802.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180803.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180807.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180808.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180812.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180813.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20180817.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190410.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190415.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190420.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190425.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190430.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190506.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190510.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190515.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190520.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190525.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190530.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190604.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190609.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190614.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190619.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190624.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190629.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190704.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190709.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190714.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190719.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190724.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190729.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190803.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190808.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190813.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190818.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190823.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190828.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190902.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190907.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190912.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190917.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190922.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20190927.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20191002.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20191007.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20191012.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20191017.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20191022.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20191027.png">
+                        <Info/>
+                    </File>
+                    <File Location="55157_20191101.png">
+                        <Info/>
+                    </File>
+                    <File Location="55178_20200121.png">
+                        <Info/>
+                    </File>
+                    <File Location="profiles.png">
+                        <Info/>
+                    </File>
+                    <File Location="summary.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 0.9">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App_resources">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="icon.ico">
+                        <Info/>
+                    </File>
+                    <File Location="icon_16.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_24.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_32.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_48.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="55148_20200920.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20200927.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201004.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201011.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201018.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201025.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201101.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201108.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201115.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201122.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201129.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201206.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201213.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201218.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201220.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20201227.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210103.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210110.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210117.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210124.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210131.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210207.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210214.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210221.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210228.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210307.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210314.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210317.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210321.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210328.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210404.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210411.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210418.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210425.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210502.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210509.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210516.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210523.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210530.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210606.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210613.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210614.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210620.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210627.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210704.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210711.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210718.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210725.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210801.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210808.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210815.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210822.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210829.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210905.png">
+                        <Info/>
+                    </File>
+                    <File Location="55148_20210908.png">
+                        <Info/>
+                    </File>
+                    <File Location="profiles.png">
+                        <Info/>
+                    </File>
+                    <File Location="summary.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+                <File Location="version.txt">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 1.0">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="AZFP_QuickView_Settings.mat">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AzfpQuickView_UserManual.chm">
+                    <Info/>
+                </File>
+                <File Location="AzfpQuickView_UserManual.pdf">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="artifact"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Versions.xlsx">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.chm">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.chm">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.pdf">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="artifact"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="includedSupportPackages.txt">
+                            <Info/>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                        <File Location="unresolvedSymbols.txt">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App_resources">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="icon.ico">
+                        <Info/>
+                    </File>
+                    <File Location="icon_16.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_24.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_32.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_48.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="browse-folder.png">
+                    <Info/>
+                </File>
+                <File Location="cancel.png">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="help.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openfile.png">
+                    <Info/>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="FSsummary.png">
+                        <Info/>
+                    </File>
+                    <File Location="summary.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="plot.png">
+                    <Info/>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+                <File Location="version.txt">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 1.1 (20230301)">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="AZFP_QuickView_Settings.mat">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AzfpQuickView_UserManual.chm">
+                    <Info/>
+                </File>
+                <File Location="AzfpQuickView_UserManual.pdf">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="artifact"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Versions.xlsx">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.chm">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.chm">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.pdf">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="artifact"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="includedSupportPackages.txt">
+                            <Info/>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                        <File Location="unresolvedSymbols.txt">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App_resources">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="icon.ico">
+                        <Info/>
+                    </File>
+                    <File Location="icon_16.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_24.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_32.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_48.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="browse-folder.png">
+                    <Info/>
+                </File>
+                <File Location="cancel.png">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="help.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openfile.png">
+                    <Info/>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="65004_SummaryDataReport_20230228T125814.tex">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="plot.png">
+                    <Info/>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+                <File Location="version.txt">
+                    <Info/>
+                </File>
+            </File>
+            <File Location="ver 1.15 (20230831)">
+                <Info/>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="AZFP-strip-2.jpg">
+                    <Info/>
+                </File>
+                <File Location="AZFP_QuickView_Settings.mat">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AzfpQuickView_UserManual.chm">
+                    <Info/>
+                </File>
+                <File Location="AzfpQuickView_UserManual.pdf">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="artifact"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Versions.xlsx">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="PackagingLog.html">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="artifact"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <File Location="for_redistribution">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AzfpQVInstaller_web.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                    </File>
+                    <File Location="for_redistribution_files_only">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="AzfpCalib_UserManual.chm">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.chm">
+                            <Info/>
+                        </File>
+                        <File Location="AzfpQuickView_UserManual.pdf">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="artifact"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="default_icon.ico">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                    </File>
+                    <File Location="for_testing">
+                        <Info/>
+                        <DIR_SIGNIFIER Location="1">
+                            <Info/>
+                        </DIR_SIGNIFIER>
+                        <File Location="AZFPQuickView.exe">
+                            <Info>
+                                <Category UUID="FileClassCategory">
+                                    <Label UUID="derived"/>
+                                </Category>
+                            </Info>
+                        </File>
+                        <File Location="includedSupportPackages.txt">
+                            <Info/>
+                        </File>
+                        <File Location="mccExcludedFiles.log">
+                            <Info/>
+                        </File>
+                        <File Location="readme.txt">
+                            <Info/>
+                        </File>
+                        <File Location="requiredMCRProducts.txt">
+                            <Info/>
+                        </File>
+                        <File Location="splash.png">
+                            <Info/>
+                        </File>
+                        <File Location="unresolvedSymbols.txt">
+                            <Info/>
+                        </File>
+                    </File>
+                </File>
+                <File Location="azfpdiag_App.mlapp">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="azfpdiag_App.prj">
+                    <Info/>
+                </File>
+                <File Location="azfpdiag_App_resources">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="icon.ico">
+                        <Info/>
+                    </File>
+                    <File Location="icon_16.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_24.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_32.png">
+                        <Info/>
+                    </File>
+                    <File Location="icon_48.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="browse-folder.png">
+                    <Info/>
+                </File>
+                <File Location="cancel.png">
+                    <Info/>
+                </File>
+                <File Location="fish.png">
+                    <Info/>
+                </File>
+                <File Location="help.png">
+                    <Info/>
+                </File>
+                <File Location="images">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="ASLfoot.png">
+                        <Info/>
+                    </File>
+                    <File Location="ASLhead.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="openfile.png">
+                    <Info/>
+                </File>
+                <File Location="openpdf.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="output">
+                    <Info/>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <File Location="55139_20221111.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20221111_sensor.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230119.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230119_sensor.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230328.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230328_sensor.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230604.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230604_sensor.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230810.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_20230810_sensor.png">
+                        <Info/>
+                    </File>
+                    <File Location="55139_SummaryDataReport_20230831T100659.aux">
+                        <Info/>
+                    </File>
+                    <File Location="55139_SummaryDataReport_20230831T100659.log">
+                        <Info/>
+                    </File>
+                    <File Location="55139_SummaryDataReport_20230831T100659.tex">
+                        <Info/>
+                    </File>
+                    <File Location="59016_20200919.png">
+                        <Info/>
+                    </File>
+                    <File Location="59016_20200919_sensor.png">
+                        <Info/>
+                    </File>
+                    <File Location="59016_SummaryDataReport_20230831T100903.aux">
+                        <Info/>
+                    </File>
+                    <File Location="59016_SummaryDataReport_20230831T100903.log">
+                        <Info/>
+                    </File>
+                    <File Location="59016_SummaryDataReport_20230831T100903.tex">
+                        <Info/>
+                    </File>
+                    <File Location="65004_SummaryDataReport_20230228T125814.tex">
+                        <Info/>
+                    </File>
+                    <File Location="FSsummary.png">
+                        <Info/>
+                    </File>
+                    <File Location="profiles.png">
+                        <Info/>
+                    </File>
+                    <File Location="summary.png">
+                        <Info/>
+                    </File>
+                </File>
+                <File Location="plot.png">
+                    <Info/>
+                </File>
+                <File Location="splash.png">
+                    <Info/>
+                </File>
+                <File Location="version.txt">
+                    <Info/>
+                </File>
+            </File>
+        </File>
+        <File Location="openfile.png">
+            <Info/>
+        </File>
+        <File Location="openpdf.m">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="plot.png">
+            <Info/>
+        </File>
+        <File Location="resources">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="ASLQuickview.exe">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="ASLQuickview_install.exe">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="buildresult.json">
+                <Info/>
+            </File>
+            <File Location="deploymentLog.html">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="artifact"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="includedSupportPackages.txt">
+                <Info/>
+            </File>
+            <File Location="mccExcludedFiles.log">
+                <Info/>
+            </File>
+            <File Location="readme.txt">
+                <Info/>
+            </File>
+            <File Location="requiredMCRProducts.txt">
+                <Info/>
+            </File>
+            <File Location="unresolvedSymbols.txt">
+                <Info/>
+            </File>
+        </File>
+        <File Location="splash.png">
+            <Info>
+                <Category UUID="Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916">
+                    <Label UUID="Deployment_InstallerSplashFile_c94007bc-ad0b-4c19-9974-da871fc25916"/>
+                    <Label UUID="Deployment_ExeSplashImageFile_c94007bc-ad0b-4c19-9974-da871fc25916"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="version.txt">
+            <Info/>
+        </File>
+    </Files>
+    <ProjectPath Location="Root">
+        <Reference Location="1bbbc1fc-7a53-4cf0-9799-8c1f1b079387">
+            <Info Ref="older versions/ver 0.5" Type="Relative"/>
+        </Reference>
+        <Reference Location="1e680f14-3a5f-4aa2-ba62-eff268d4f456">
+            <Info Ref="older versions/ver 0.05" Type="Relative"/>
+        </Reference>
+        <Reference Location="2d84e142-2284-4783-8841-3401c500032d">
+            <Info Ref="older versions/ver 0.05/old" Type="Relative"/>
+        </Reference>
+        <Reference Location="2ee977e7-aab1-4f5f-9139-27820d5f62cc">
+            <Info Ref="older versions/ver 0.1/screencapture" Type="Relative"/>
+        </Reference>
+        <Reference Location="3aebd54b-af57-4664-9138-acb8f592f785">
+            <Info Ref="older versions/ver 0.8" Type="Relative"/>
+        </Reference>
+        <Reference Location="3d5cc502-376f-4757-b7b4-349ebba0e26e">
+            <Info Ref="older versions/ver 1.15 (20230831)" Type="Relative"/>
+        </Reference>
+        <Reference Location="48840676-ba48-48db-9fdb-fe15c17ae137">
+            <Info Ref="older versions/ver 0.1/old" Type="Relative"/>
+        </Reference>
+        <Reference Location="884081ff-55c1-40e3-b69c-2cf52181d794">
+            <Info Ref="" Type="Relative"/>
+        </Reference>
+        <Reference Location="9a6f89bb-c8af-460a-9a48-973e9d64a5e8">
+            <Info Ref="older versions/ver 0.6" Type="Relative"/>
+        </Reference>
+        <Reference Location="9c8288ac-1ae6-4185-ade7-c5b4a592bc0c">
+            <Info Ref="older versions/ver 0.7" Type="Relative"/>
+        </Reference>
+        <Reference Location="b7053d87-03ba-4451-8207-3580a48faa06">
+            <Info Ref="older versions/ver 0.9" Type="Relative"/>
+        </Reference>
+        <Reference Location="c1a203f1-be49-465e-be42-cd8c2f545191">
+            <Info Ref="older versions/ver 1.0" Type="Relative"/>
+        </Reference>
+        <Reference Location="c60683ae-2c1e-4d70-9185-966819a86c25">
+            <Info Ref="older versions/PR878 code" Type="Relative"/>
+        </Reference>
+        <Reference Location="d7c961fb-48a7-493f-a2ad-298ddc104412">
+            <Info Ref="older versions/ver 0.1" Type="Relative"/>
+        </Reference>
+        <Reference Location="e7fee06c-1db1-4b56-ae64-a5b01e66598d">
+            <Info Ref="older versions/ver 1.1 (20230301)" Type="Relative"/>
+        </Reference>
+        <Reference Location="ef1494c6-b17c-4dbc-9eec-a132aca58b0f">
+            <Info Ref="older versions/ver 0.05/screencapture" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+    <Files Location="MathWorksDeploymentConfigs">
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+        <Info configMapData="{&quot;StandaloneDesktopApp1&quot;:&quot;MathWorksDeploymentConfig{a2e9da61-c749-4565-aceb-b574c15b79a3}&quot;}"/>
+    </Files>
+    <Files Location="MathWorksDeploymentConfig{a2e9da61-c749-4565-aceb-b574c15b79a3}">
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+        <Info StandaloneAppConfigModel="{&quot;entries&quot;:[{&quot;content&quot;:{&quot;additionalFileLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_AdditionalFiles_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;33a1439b-262e-486a-8f39-81e29f0cf726&quot;},&quot;authorOrganization&quot;:&quot;ASL&quot;,&quot;description&quot;:&quot;A utility that provides a summary of an AZFPs performance. This utility can be used in the field to quickly summarize months of AZFP data.&quot;,&quot;exeIconLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_ExeIconFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;694f27c9-e603-4f80-807b-6bf1cc9508b6&quot;},&quot;exeSplashScreenLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_ExeSplashImageFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;5a9ffc44-da35-4dc7-a64d-63b831721ae5&quot;},&quot;executableName&quot;:&quot;ASLQuickview&quot;,&quot;helpTextFileLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_HelpTextFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;bb61e9bf-7da8-467e-89f8-ce0ce3af31a3&quot;},&quot;mainFileLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_MainFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;bc2ae3e4-e746-4650-8b85-35817154a988&quot;},&quot;name&quot;:&quot;AZFP QuickView&quot;,&quot;outputFolder&quot;:&quot;resources&quot;,&quot;summary&quot;:&quot;Summarize AZFP performance&quot;,&quot;supportPackageData&quot;:{&quot;content&quot;:{},&quot;type&quot;:&quot;deployment.compiler.model.SupportPackageInfo&quot;,&quot;uuid&quot;:&quot;4b436888-8967-4402-9fe1-42558ca32e70&quot;},&quot;suppressWindowsCmdPrompt&quot;:false,&quot;version&quot;:&quot;1.0&quot;},&quot;type&quot;:&quot;deployment.compiler.model.StandaloneAppBuildConfiguration&quot;,&quot;uuid&quot;:&quot;c2e7a2b2-e7e9-4462-9159-58e0c53d6d31&quot;},{&quot;content&quot;:{&quot;addRemoveProgramsIconLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_AddRemoveProgramsIconFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;7ed303b0-00ed-4f5f-a8d6-2fddd13ede0f&quot;},&quot;additionalFileLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_InstallerAdditionalFiles_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;3de94437-ead5-43c3-9639-1d6c2a3058b9&quot;},&quot;installerIconLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_InstallerIconFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;7b679ea8-26d0-456f-8309-5eb70d9c3ba9&quot;},&quot;installerLogoLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_InstalerLogoFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;e5ea1ad2-a49c-4f09-aebd-145f61518b71&quot;},&quot;installerName&quot;:&quot;ASLQuickview_install&quot;,&quot;installerSplashLabel&quot;:{&quot;content&quot;:{&quot;categoryID&quot;:&quot;Deployment_Category_c94007bc-ad0b-4c19-9974-da871fc25916&quot;,&quot;labelID&quot;:&quot;Deployment_InstallerSplashFile_c94007bc-ad0b-4c19-9974-da871fc25916&quot;},&quot;type&quot;:&quot;deployment.compiler.model.ProjectLabel&quot;,&quot;uuid&quot;:&quot;544f1f12-aedc-45fe-88ed-4ae9b25e4d63&quot;},&quot;installerVersion&quot;:&quot;1.0&quot;,&quot;outputFolder&quot;:&quot;resources&quot;},&quot;type&quot;:&quot;deployment.compiler.model.InstallerPackageOptions&quot;,&quot;uuid&quot;:&quot;f36d3b37-e40b-4069-bbcd-539913d1a952&quot;},{&quot;content&quot;:{},&quot;type&quot;:&quot;deployment.compiler.model.ProjectStateValidationIssueList&quot;,&quot;uuid&quot;:&quot;b06b9b2a-2dff-4017-8d5a-38c4c274b4f8&quot;}],&quot;packageUris&quot;:[&quot;http://schema.mathworks.com/mf0/deployment_compiler_model/1.0.0&quot;],&quot;version&quot;:&quot;1.0&quot;}" displayName="StandaloneDesktopApp1" lastAccessed="1759167348507" taskID="a5d0d873-4664-42eb-ae8b-6d40c47c2a3e" type="StandaloneDesktopApp" uniqueId="c94007bc-ad0b-4c19-9974-da871fc25916"/>
+    </Files>
+</project>

@@ -1,0 +1,2 @@
+Run installer:
+resources\AZFP_Quickview_install.exe
